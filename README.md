@@ -6,8 +6,7 @@ numero = float(input('Digite um número: '))
 print(f'o número informado foi {numero}.')
 ```
 
-    Digite um número: 10
-    o número informado foi 10.0.
+
 
 
 
@@ -19,9 +18,7 @@ soma = (numero1 + numero2)
 print(f'A soma entre os dois números é {soma}.')
 ```
 
-    Digite o primeiro número:10
-    Digite o Segundo número:5
-    A soma entre os dois números é 15.0.
+
 
 
 
@@ -35,11 +32,7 @@ media = (nota1 + nota2 + nota3 + nota4)/4
 print(f'Sua média será {media:.1f}')
 ```
 
-    Digite a primeira nota: 8.0
-    Digite a segunda nota: 6.0
-    Digite a terceira nota: 6.0
-    Digite a quarta nota: 8.0
-    Sua média será 7.0
+
 
 
 
@@ -50,8 +43,7 @@ cm = metro*100
 print(f'convetendo {metro}m para cm, fica {cm}cm')
 ```
 
-    tamanho em metros: 1
-    convetendo 1.0m para cm, fica 100.0cm
+
 
 
 
@@ -62,8 +54,7 @@ area = 3.14*raio**2
 print(f'A área do círculo é igual a {area:.2f} ')
 ```
 
-    Digite um raio de um círculo: 15
-    A área do círculo é igual a 706.50 
+
 
 
 
@@ -83,9 +74,7 @@ salario = ganha_por_hr * hr_por_mes
 print(f'Seu salário total é de R${salario:.2f}')
 ```
 
-    quanto você ganha por hora? R$300
-    Quantas horas você trabalhar por mês? 120
-    Seu salário total é de R$36000.00
+
 
 
 
@@ -96,8 +85,7 @@ celsius = (5*(farenheit-32)/9)
 print(f'Transformando Farenheit em Celsius fica {celsius:.1f}°C')
 ```
 
-    Digite a temperatura em graus Farenheit: 50
-    Transformando Farenheit em Celsius fica 10.0°C
+
 
 
 
@@ -108,8 +96,7 @@ farenheit = 1.8*celsius+32
 print(f'Transformando Celsius em Farenheit fica {farenheit:.1f}°C')
 ```
 
-    Digite a temperatura em graus Celsius: 10
-    Transformando Celsius em Farenheit fica 50.0°C
+
 
 
 
@@ -121,9 +108,7 @@ real = float(dolar*valor_dolar)
 print(f'você tem R${real:.2f}')
 ```
 
-    quanto você tem em $? 1
-    valor do dolar:5.5
-    você tem R$5.50
+
 
 
 
@@ -134,8 +119,7 @@ valor_rendimento = valor*1.007
 print(f'O valor com o juros após um mês fica R${valor_rendimento:.1f}')
 ```
 
-    Valor depositado: R$100
-    O valor com o juros após um mês fica R$100.7
+
 
 
 
@@ -146,8 +130,7 @@ pratacoes = valor/5
 print(f'O valor das prestaçoes será igual á {pratacoes}')
 ```
 
-    Valor da compra: R$500
-    O valor das prestaçoes será igual á 100.0
+
 
 
 
@@ -159,9 +142,7 @@ valor_venda = preco_custo * (1 + acrecimo/100)
 print(f'o valor de venda será R${valor_venda:.2f}')
 ```
 
-    Digite o preço de custo do produto:100
-    Digite o acrécimo de preço de custo em porcentagem: 20
-    o valor de venda será R$120.0
+
 
 
 
@@ -173,9 +154,7 @@ consumo = distancia/combustivel_gasto
 print(f'O consumo médio do automóvel é de {consumo:.1f}Km/L')
 ```
 
-    Distância total pecorrida pelo automóvel em Km: 360
-    Total de combustivel gasto: 40
-    O consumo médio do automóvel é de 9.0Km/L
+
 
 
 
@@ -190,10 +169,7 @@ d = (r + s)/2
 print(f'O valor da expressão fica igual a {d}')
 ```
 
-    Digite um valor positivo e inteiro para A: 2
-    Digite um valor positivo e inteiro para B: 3
-    Digite um valor positivo e inteiro para C: 4
-    O valor da expressão fica igual a 37.0
+
 
 
 
@@ -207,12 +183,7 @@ salario_final = salario_fixo + comissao
 print(f'Nome: {nome}\nSalário fixo: R${salario_fixo:.2f}\nSalário no final do mês: R${salario_final:.2f}')
 ```
 
-    Nome do vendedor: luiz
-    Informe o seu salário fixo: 1000
-    Informe o total de vendas efetuadas em dinheiro no mês: 100
-    Nome: luiz
-    Salário fixo: R$1000.00
-    Salário no final do mês: R$1015.00
+
 
 
 
@@ -227,12 +198,7 @@ calculo3 = numero_real**3
 print(f'Resultado do primeiro calculo: {calculo1}\nResultado do segundo calculo: {calculo2}\nResultado do terceiro calculo: {calculo3}')
 ```
 
-    Digite o primeiro número inteiro: 10
-    Digite o segundo número inteiro: 5
-    Digite um número real: 2
-    Resultado do primeiro calculo: 50.0
-    Resultado do segundo calculo: 32.0
-    Resultado do terceiro calculo: 8.0
+
 
 
 
@@ -243,8 +209,7 @@ peso_ideal = (72.7*altura)-58
 print(f'O peso ideal para sua altura é {peso_ideal:.1f}Kg')
 ```
 
-    Informe sua altura: 1.80
-    O peso ideal para sua altura é 72.9Kg
+
 
 
 
@@ -256,9 +221,7 @@ tempo_download = tamanho_aquivo/velocidade_link
 print(f'O tempo aproximado de download do arquivo usando esse link será de {tempo_download:.1f} minutos.')
 ```
 
-    Informe o tamanho do arquivo em MB: 10
-    Infome a valocidade do link de internet em Mbps: 2
-    O tempo aproximado de download do arquivo usando esse link será de 5.0 minutos.
+
 
 
 
@@ -273,10 +236,7 @@ print(f'a = {a}\nb = {b}')
 
 ```
 
-    Digite o valor de a: 10
-    Digite o valor de b: 5
-    a = 5
-    b = 10
+
 
 
 
@@ -296,12 +256,7 @@ print(f'O salário líquido é igual a R${salario_liq:.2f}')
 
 ```
 
-    quanto você ganha por hora? R$100
-    Quantas horas você trabalhar por mês? 10
-    O salário Bruto é igual a R$1000.00
-    Quanto pagou ao INSS: 80.0
-    Quanto pagou ao sindicato: R$50.0
-    O salário líquido é igual a R$760.00
+
 
 
 
@@ -315,9 +270,7 @@ else:
   print(f'O número maior é o {numero2}')
 ```
 
-    Digite o primeiro número: 300
-    Digite o segundo número: 2
-    O número maior é o 300.0
+
 
 
 
@@ -333,8 +286,7 @@ else:
     print('O numero informado é negativo ')
 ```
 
-    Digite um número: -10
-    O numero informado é negativo 
+
 
 
 
@@ -350,8 +302,7 @@ else:
     print('Sexo inválido.')
 ```
 
-    Informe o seu sexo [M/F]: M
-    O sexo informado foi masculino.
+
 
 
 
@@ -371,9 +322,7 @@ else:
     print('erro')
 ```
 
-    Informe sua primeira nota: 11
-    Informe sua segunda nota: 11
-    erro
+
 
 
 
@@ -391,10 +340,7 @@ else:
     print(f'O número maior é o {numero3}')
 ```
 
-    Digite o primeiro número: 1
-    Digite o segundo número: 3
-    Digite o terceiro número: 2
-    O número maior é o 3.0
+0
 
 
 
@@ -412,10 +358,7 @@ else:
     print(f'Você deve comprar o terceiro produto')
 ```
 
-    Informe o valor so primeiro produto: R$10
-    Informe o valor so segundo produto: R$25
-    Informe o valor so terceiro produto: R$34
-    Você deve comprar o primeiro produto
+
 
 
 
@@ -434,8 +377,7 @@ else:
       print('Valor inválido.')
 ```
 
-    Informe o turno que você estuda [M/V/N]: f
-    Valor inválido.
+
 
 
 
@@ -468,11 +410,7 @@ else:
       print(f'Novo salário: R${salario*(1+porcentagem4):.2f}')
 ```
 
-    Salário do cobrador: 1000
-    Salário antes do rajuste: 1000.0
-    Percentual de aumento: 10%
-    Valor do aumento: R$100.00
-    Novo salário: R$1100.00
+
 
 
 
@@ -506,15 +444,7 @@ print(f'  v.     Total de desconto:            :R${total_descontos:.2f}')
 print(f' vi.     Salário Líquido:              :R${salario_liq:.2f}')
 ```
 
-    quanto você ganha por hora? R$5
-    Quantas horas você trabalhar por mês? 220
-    ------------------------------------------------------------
-      i.     Salário Bruto:                :R$1100.00
-     ii.     Desconto do IR:               :R$55.00
-    iii.     Desconto do Sindicato:        :R$33.00
-     iv.     Desconto do FGTS:             :R$121.00
-      v.     Total de desconto:            :R$209.00
-     vi.     Salário Líquido:              :R$891.00
+
 
 
 
@@ -545,8 +475,7 @@ else:
               print('Valor inválido')
 ```
 
-    Digite um número de 1 a 7: 8
-    Valor inválido
+
 
 
 
@@ -577,13 +506,7 @@ print(f'Primeira nota: {nota1}\nSegunda nota: {nota2}\nMédia: {media}')
 print(f'Conceito: {conceito}\n{mensagem}')
 ```
 
-    Informe sua primeira nota: 4
-    Informe sua segunda nota: 5
-    Primeira nota: 4.0
-    Segunda nota: 5.0
-    Média: 4.5
-    Conceito: D
-    REPROVADO
+
 
 
 
@@ -605,10 +528,7 @@ else:
     print('equilátero!')
 ```
 
-    Primeiro segmento: 3
-    Segundo segmento: 3
-    Terceiro segmento: 4
-    Os segmentos acima podem formar um triângulo isóceles!
+
 
 
 
@@ -635,12 +555,7 @@ else:
     print(f'x1 = {x1}\nx2 = {x2}')
 ```
 
-    Informe o valor de a: 1
-    Informe o valor de b: 2
-    Informe o valor de c: 0
-    A equação possui duas raizes reais:
-    x1 = 0.0
-    x2 = -2.0
+
 
 
 
@@ -679,8 +594,7 @@ else:
     print(f'O ano de {n} não é bissexto')
 ```
 
-    Digite o ano que quer analisar! Coloque 0 para analisar o ano atual:2016
-    O ano de 2016 é bissexto
+
 
 
 
@@ -701,10 +615,7 @@ else:
     print('erro')
 ```
 
-    Informe sua primeira nota: 10
-    Informe sua segunda nota: 10
-    Informe sua terceira nota: 10
-    Aprovado com Distinção
+
 
 
 
@@ -791,9 +702,7 @@ else:
             print(f'quatro notas de 1.')
 ```
 
-    Digite o valor de saque[min:R$10,max:R$600]: 399
-    para sacar um quantidade R$399, o progama fornece três notas de 100,
-    uma nota de 50, quatro notas de 10, uma nota de 5, quatro notas de 1.
+
 
 
 
@@ -843,13 +752,7 @@ else:
   print('decimal')
 ```
 
-    Digite o primeiro número: 1.5
-    Digite o segundo número: 3
-    informe qual operação você deseja realizar : multiplicação
-    O resultado é 4.5
-    O número digitado é impar.
-    O numero informado é positivo. 
-    decimal
+
 
 
 
@@ -876,13 +779,7 @@ else:
             print("Inocente")
 ```
 
-    Informe 1 para sim e 0 para não
-    Telefonou para a vítima? 1
-    Esteve no local do crime? 1
-    Mora perto da vítima? 1
-    Devia para a vítima? 1
-    Já trabalhou com a vítima? 0
-    Cúmplice
+
 
 
 
@@ -909,9 +806,7 @@ else:
       print(f'O valor a ser pago será de R${preco_g-desconto2:.2f}')
 ```
 
-    Tipo de combustivel [A/G] a
-    Quantos litros? 10
-    O valor a ser pago será de R$18.43
+
 
 
 
@@ -937,9 +832,7 @@ else:
   print(f'O valor a ser pago será de R${preco_total:.2f}')
 ```
 
-    Quantidade em Kg de morango: 6
-    Quantidade em Kg de maçã: 6
-    O valor a ser pago será de R$19.98
+
 
 
 
@@ -967,9 +860,6 @@ else:
             print('Sem classificação')
 ```
 
-    Informe a idade do nadador: 19
-    Classificação: Adulto
-
 
 
 ```python
@@ -986,8 +876,3 @@ else:
   else:
     print('Valor inválido')
 ```
-
-    Altura: 1.80
-    Sexo [M/F]: m
-    Peso ideal: 72.9
-
